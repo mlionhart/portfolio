@@ -264,6 +264,12 @@ p {
 .res-nav_click {
     display: none;
 }
+
+.special {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
 	
 
 /* Nav Styles
