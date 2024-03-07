@@ -2040,3 +2040,7 @@ float: left;
 width: 60px;
 height: auto;
 }
+
+#aboutUs img{
+  margin: 25px auto;
+}

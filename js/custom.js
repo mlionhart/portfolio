@@ -130,11 +130,32 @@ wow = new WOW({
     offset: 100
 });
 wow.init();
-document.getElementById('').onclick = function() {
-    var section = document.createElement('section');
-    section.className = 'wow fadeInDown';
-    section.className = 'wow shake';
-    section.className = 'wow zoomIn';
-    section.className = 'wow lightSpeedIn';
-    this.parentNode.insertBefore(section, this);
-};
+
+// Select all figure elements
+document.querySelectorAll('figure').forEach(function(figure) {
+    // Add click event listener to each figure
+    figure.addEventListener('click', function(e) {
+        // Prevent the default action to handle navigation manually
+        e.preventDefault();
+
+        // Find the <a> tag within the clicked figure
+        var link = this.querySelector('a');
+
+        // If a link is found, navigate to the URL in the href attribute
+        if (link) {
+            window.open(link.href, '_blank');
+        }
+    });
+});
+
+
+
+// document.getElementById('').onclick = function() {
+//     var section = document.createElement('section');
+//     // section.className = 'wow fadeInDown';
+//     // section.className = 'wow shake';
+//     // section.className = 'wow zoomIn';
+//     // section.className = 'wow lightSpeedIn';
+//     section.className = "wow fadeInDown shake zoomIn lightSpeedIn";
+//     this.parentNode.insertBefore(section, this);
+// };
