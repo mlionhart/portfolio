@@ -131,6 +131,12 @@ wow = new WOW({
 });
 wow.init();
 
+document.querySelectorAll(".repo-link").forEach((link) => {
+  link.addEventListener("click", function (event) {
+    event.stopPropagation();
+  });
+});
+
 // Select all figure elements
 document.querySelectorAll('figure').forEach(function(figure) {
     // Add click event listener to each figure
