@@ -123,6 +123,24 @@ a, a:hover, a:active {
 	font-size: 68.5%;
 }
 
+.repo-link {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: rgba(0, 158, 0, 0.5);
+  background-color: rgba(45, 43, 43, 0.7);
+  padding: 12px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.repo-link:hover {
+  color: rgb(20, 228, 20);
+  background-color: black;
+  border: 1px solid rgb(20, 228, 20);
+  transition: 1s;
+}
+
 /*---------------*/
 /***** Oscar *****/
 /*---------------*/
