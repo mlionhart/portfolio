@@ -2075,3 +2075,15 @@ height: auto;
 #aboutUs img{
   margin: 25px auto;
 }
+
+.special-links a {
+  color: white;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.special-links a:hover {
+  color: rgb(13, 14, 13);
+  font-weight: bold;
+  transition: .5s;
+}
