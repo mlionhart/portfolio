@@ -131,6 +131,7 @@ wow = new WOW({
 });
 wow.init();
 
+// fix repo link not directing to repo 
 document.querySelectorAll(".repo-link").forEach((link) => {
   link.addEventListener("click", function (event) {
     event.stopPropagation();

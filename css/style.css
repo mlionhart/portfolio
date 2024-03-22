@@ -151,7 +151,7 @@ a, a:hover, a:active {
   color: red;
   background-color: black;
   border: 1px solid red;
-  transition: 0.8s;
+  transition: 0.5s;
 }
 
 /*---------------*/
