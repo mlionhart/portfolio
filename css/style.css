@@ -128,9 +128,9 @@ a, a:hover, a:active {
   right: 10px;
   top: 10px;
   font-size: smaller;
-  color: rgba(255, 0, 0, 0.8);
+  color: rgba(255, 0, 0, 0.73);
   background-color: rgba(0,0,0,0.8);
-  padding: 12px;
+  padding: 10px;
   text-decoration: none;
   text-transform: capitalize;
   border: 1px solid transparent;
