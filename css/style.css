@@ -136,6 +136,16 @@ a, a:hover, a:active {
   border: 1px solid transparent;
 }
 
+.repo-link:link {
+  text-decoration: none;
+}
+
+.repo-link:visited {
+  color: rgba(255, 0, 0, 0.73);
+  background-color: rgba(0,0,0,0.8);
+  text-decoration: none;
+}
+
 .repo-link:hover {
   /* color: rgb(0, 201, 0); */
   color: red;
