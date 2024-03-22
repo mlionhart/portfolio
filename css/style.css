@@ -127,18 +127,21 @@ a, a:hover, a:active {
   position: absolute;
   right: 10px;
   top: 10px;
-  color: rgba(0, 158, 0, 0.5);
-  background-color: rgba(45, 43, 43, 0.7);
+  font-size: smaller;
+  color: rgba(255, 0, 0, 0.8);
+  background-color: rgba(0,0,0,0.8);
   padding: 12px;
   text-decoration: none;
   text-transform: capitalize;
+  border: 1px solid transparent;
 }
 
 .repo-link:hover {
-  color: rgb(20, 228, 20);
+  /* color: rgb(0, 201, 0); */
+  color: red;
   background-color: black;
-  border: 1px solid rgb(20, 228, 20);
-  transition: 1s;
+  border: 1px solid red;
+  transition: 0.8s;
 }
 
 /*---------------*/
