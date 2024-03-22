@@ -134,6 +134,9 @@ a, a:hover, a:active {
   text-decoration: none;
   text-transform: capitalize;
   border: 1px solid transparent;
+  box-shadow: 0 0 0 transparent; 
+  transition: box-shadow 0.4s;
+  font-weight: 500;
 }
 
 .repo-link:link {
@@ -151,7 +154,8 @@ a, a:hover, a:active {
   color: red;
   background-color: black;
   border: 1px solid red;
-  transition: 0.5s;
+  transition: 0.4s;
+  box-shadow: 0 0 10px 1px red; 
 }
 
 /*---------------*/
